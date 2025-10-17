@@ -785,8 +785,8 @@
     .modal {
       background: rgba(28, 28, 30, 0.98);
       backdrop-filter: blur(60px) saturate(180%);
-      -webkit-backdrop-filter: blur
-(60px) saturate(180%);
+      -webkit-backdrop-filter: blur(60px
+     ) saturate(180%);
       border: 1px solid rgba(84, 84, 88, 0.4);
       border-radius: 1.25rem;
       padding: 2.5rem;
@@ -1114,8 +1114,7 @@
   <div class="toast" id="toast" role="alert" aria-live="polite"></div>
 
   <script>
-    // PART 3/5 BEGINS HERE - JavaScript Setup & Data Loading
-// Configuration - NO HARD-CODED DATA
+    // Configuration
     const DATASETS = [
       { name: 'Similar Words', path: '../../datacentre/datasm-01.json' }
     ];
@@ -1139,6 +1138,15 @@
       const div = document.createElement('div');
       div.textContent = text;
       return div.innerHTML;
+    }
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
     }
 
     function showToast(message, duration = 2500) {
@@ -1228,6 +1236,12 @@
         
         quizData = data;
         SETS_PER_TEST = data.setsPerTest || 5;
+        
+        // Create word order maps for each set
+        quizData.sets.forEach(set => {
+          const indices = set.words.map((_, idx) => idx);
+          set.wordOrder = shuffleArray(indices);
+        });
         
         updateDatasetButtonText();
         createDots();
@@ -1383,8 +1397,7 @@
       });
     }
 
-    // PART 4/5 BEGINS HERE - Rendering & UI Functions
-// Visual Progress Indicators
+    // Visual Progress Indicators
     function createDots() {
       if (!quizData) return;
       
@@ -1530,9 +1543,11 @@
         html += `<div class="set-container"${isLastSet ? ' style="margin-bottom:0"' : ''}>`;
         html += `<div class="set-title">Set ${set.setNumber}</div>`;
         
-        // Word bank
+        // Word bank with randomized order
         html += '<div class="word-bank">';
-        set.words.forEach((word, wordIdx) => {
+        const displayOrder = set.wordOrder || set.words.map((_, idx) => idx);
+        displayOrder.forEach(wordIdx => {
+          const word = set.words[wordIdx];
           let isUsed = false;
           set.sentences.forEach((_, sentIdx) => {
             if (answers[`${setIdx}-${sentIdx}`] === wordIdx) {
@@ -1562,15 +1577,15 @@
           if (showingResults) {
             const correctWord = set.words[sentence.correct];
             if (answer !== undefined) {
-              const userWord = set.words[answer];
+              const userWord = set.words
+           [answer];
               if (isCorrect) {
                 blankHtml = `<span class="blank correct">${sanitizeText(userWord)}</span>`;
               } else {
                 blankHtml = `<span class="blank incorrect">${sanitizeText(userWord)}</span> <span class="blank correct">${sanitizeText(correctWord)}</span>`;
               }
             } else {
-              blankH
-tml = `<span class="blank correct">${sanitizeText(correctWord)}</span>`;
+              blankHtml = `<span class="blank correct">${sanitizeText(correctWord)}</span>`;
             }
           } else if (answer !== undefined) {
             blankHtml = `<span class="blank filled" onclick="handleBlankClick(${setIdx}, ${sentIdx})">${sanitizeText(set.words[answer])}</span>`;
@@ -1622,9 +1637,11 @@ tml = `<span class="blank correct">${sanitizeText(correctWord)}</span>`;
       html += '<div class="set-card">';
       html += `<div class="set-label">Set ${set.setNumber} • ${currentSet + 1} of ${endSet - startSet}</div>`;
       
-      // Word bank
+      // Word bank with randomized order
       html += '<div class="word-bank">';
-      set.words.forEach((word, wordIdx) => {
+      const displayOrder = set.wordOrder || set.words.map((_, idx) => idx);
+      displayOrder.forEach(wordIdx => {
+        const word = set.words[wordIdx];
         let isUsed = false;
         set.sentences.forEach((_, sentIdx) => {
           if (answers[`${actualSetIdx}-${sentIdx}`] === wordIdx) {
@@ -2042,4 +2059,4 @@ tml = `<span class="blank correct">${sanitizeText(correctWord)}</span>`;
     window.addEventListener('load', init);
   </script>
 </body>
-</html>
+</html>   
