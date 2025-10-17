@@ -10,7 +10,7 @@
     {
       "setNumber": 1,
       "topic": "Daily Routines & Morning Habits",
-      "words": ["wake up", "get up", "have breakfast", "go"],
+      "words": ["wake up", "gets up", "have breakfast", "go"],
       "sentences": [
         {"text": "I usually _____ at 7 o'clock every morning.", "correct": 0},
         {"text": "She _____ immediately after her alarm rings.", "correct": 1},
@@ -21,7 +21,7 @@
     {
       "setNumber": 2,
       "topic": "Daily Routines & Time",
-      "words": ["start", "finish", "leave", "take"],
+      "words": ["start", "finishes", "leaves", "take"],
       "sentences": [
         {"text": "Classes _____ at 9 o'clock sharp.", "correct": 0},
         {"text": "The school day _____ at 3:30 pm.", "correct": 1},
@@ -32,7 +32,7 @@
     {
       "setNumber": 3,
       "topic": "Daily Routines - Questions",
-      "words": ["wake up", "wakes up", "leave", "go"],
+      "words": ["wake up", "wakes up", "leave", "goes"],
       "sentences": [
         {"text": "Does your brother _____ early on weekends?", "correct": 0},
         {"text": "She doesn't _____ in the morning.", "correct": 2},
