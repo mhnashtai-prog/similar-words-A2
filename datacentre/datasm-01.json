@@ -32,18 +32,18 @@
     {
       "setNumber": 3,
       "topic": "Daily Routines - Questions",
-      "words": ["wake up", "have breakfast", "leave", "go"],
+      "words": ["wake up", "wakes up", "leave", "go"],
       "sentences": [
         {"text": "Does your brother _____ early on weekends?", "correct": 0},
-        {"text": "She doesn't _____ coffee in the morning.", "correct": 1},
+        {"text": "She doesn't _____ in the morning.", "correct": 2},
         {"text": "What time do you _____ for work?", "correct": 2},
         {"text": "My sister never _____ late to class.", "correct": 3}
       ]
     },
     {
       "setNumber": 4,
-      "topic": "Daily Routines - Negatives",
-      "words": ["take", "start", "finish", "brush"],
+      "topic": "Daily Routines - Morning Activities",
+      "words": ["take", "start", "finish", "brushes"],
       "sentences": [
         {"text": "Do you _____ a shower before breakfast?", "correct": 0},
         {"text": "When does the lesson _____?", "correct": 1},
@@ -54,18 +54,18 @@
     {
       "setNumber": 5,
       "topic": "Daily Habits",
-      "words": ["get dressed", "leave", "take", "brush"],
+      "words": ["get dressed", "leaves", "take", "brushes"],
       "sentences": [
         {"text": "The children _____ quickly for school.", "correct": 0},
         {"text": "The train _____ at 7:45 every morning.", "correct": 1},
         {"text": "I don't _____ much time in the bathroom.", "correct": 2},
-        {"text": "He always _____ his uniform on weekdays.", "correct": 3}
+        {"text": "He always _____ his hair in the morning.", "correct": 3}
       ]
     },
     {
       "setNumber": 6,
       "topic": "School & Study",
-      "words": ["study", "learn", "teach", "understand"],
+      "words": ["study", "learn", "teaches", "understands"],
       "sentences": [
         {"text": "I _____ English three times a week.", "correct": 0},
         {"text": "Students _____ new vocabulary every lesson.", "correct": 1},
@@ -76,7 +76,7 @@
     {
       "setNumber": 7,
       "topic": "School Activities",
-      "words": ["practice", "write", "read", "do"],
+      "words": ["practice", "write", "reads", "do"],
       "sentences": [
         {"text": "We _____ speaking in every class.", "correct": 0},
         {"text": "They _____ essays for homework.", "correct": 1},
@@ -87,7 +87,7 @@
     {
       "setNumber": 8,
       "topic": "School - Questions & Answers",
-      "words": ["answer", "ask", "study", "understand"],
+      "words": ["answers", "ask", "study", "understand"],
       "sentences": [
         {"text": "The teacher _____ questions at the end.", "correct": 0},
         {"text": "Students often _____ questions in class.", "correct": 1},
@@ -98,7 +98,7 @@
     {
       "setNumber": 9,
       "topic": "Learning Activities",
-      "words": ["learn", "write", "read", "practice"],
+      "words": ["learn", "writes", "read", "practice"],
       "sentences": [
         {"text": "What language do you _____?", "correct": 0},
         {"text": "She _____ her exercises in her notebook.", "correct": 1},
@@ -109,7 +109,7 @@
     {
       "setNumber": 10,
       "topic": "School Questions",
-      "words": ["answer", "teach", "do", "ask"],
+      "words": ["answers", "teach", "do", "ask"],
       "sentences": [
         {"text": "My teacher never _____ difficult questions.", "correct": 0},
         {"text": "Where does your father _____?", "correct": 1},
@@ -120,7 +120,7 @@
     {
       "setNumber": 11,
       "topic": "Free Time & Hobbies",
-      "words": ["play", "watch", "listen", "like"],
+      "words": ["play", "watches", "listen", "like"],
       "sentences": [
         {"text": "I _____ football every Saturday morning.", "correct": 0},
         {"text": "She _____ TV after dinner.", "correct": 1},
@@ -131,7 +131,7 @@
     {
       "setNumber": 12,
       "topic": "Preferences & Feelings",
-      "words": ["love", "enjoy", "prefer", "hate"],
+      "words": ["love", "enjoys", "prefer", "hates"],
       "sentences": [
         {"text": "I _____ swimming in the summer.", "correct": 0},
         {"text": "He _____ reading books in English.", "correct": 1},
@@ -164,9 +164,9 @@
     {
       "setNumber": 15,
       "topic": "Free Time Questions",
-      "words": ["watch", "meet", "spend", "enjoy"],
+      "words": ["watch", "meet", "spend", "enjoys"],
       "sentences": [
-        {"text": "My parents don't _____ social media.", "correct": 0},
+        {"text": "My parents don't _____ much television.", "correct": 0},
         {"text": "Where do you _____ your friends?", "correct": 1},
         {"text": "We _____ a lot of time at home.", "correct": 2},
         {"text": "She _____ cooking for her family.", "correct": 3}
@@ -175,7 +175,7 @@
     {
       "setNumber": 16,
       "topic": "Food & Eating",
-      "words": ["eat", "drink", "cook", "have"],
+      "words": ["eat", "drinks", "cooks", "have"],
       "sentences": [
         {"text": "I _____ fruit every morning.", "correct": 0},
         {"text": "She _____ coffee three times a day.", "correct": 1},
@@ -186,7 +186,7 @@
     {
       "setNumber": 17,
       "topic": "Food Preparation",
-      "words": ["make", "taste", "order", "try"],
+      "words": ["makes", "tastes", "order", "try"],
       "sentences": [
         {"text": "He _____ a sandwich for breakfast.", "correct": 0},
         {"text": "This soup _____ delicious!", "correct": 1},
@@ -197,7 +197,7 @@
     {
       "setNumber": 18,
       "topic": "Food Shopping",
-      "words": ["buy", "serve", "eat", "drink"],
+      "words": ["buy", "serves", "eat", "drink"],
       "sentences": [
         {"text": "We _____ vegetables at the market.", "correct": 0},
         {"text": "The restaurant _____ traditional food.", "correct": 1},
@@ -208,7 +208,7 @@
     {
       "setNumber": 19,
       "topic": "Food Questions",
-      "words": ["cook", "have", "make", "taste"],
+      "words": ["cooks", "have", "makes", "taste"],
       "sentences": [
         {"text": "Who _____ in your house?", "correct": 0},
         {"text": "What do you usually _____ for breakfast?", "correct": 1},
@@ -219,7 +219,7 @@
     {
       "setNumber": 20,
       "topic": "Food Habits",
-      "words": ["order", "try", "buy", "serve"],
+      "words": ["order", "try", "buy", "serves"],
       "sentences": [
         {"text": "Do you _____ food online?", "correct": 0},
         {"text": "My children never _____ vegetables.", "correct": 1},
@@ -230,7 +230,7 @@
     {
       "setNumber": 21,
       "topic": "Travel & Transportation",
-      "words": ["travel", "drive", "fly", "walk"],
+      "words": ["travel", "drives", "flies", "walk"],
       "sentences": [
         {"text": "We _____ abroad every summer.", "correct": 0},
         {"text": "My father _____ to work every day.", "correct": 1},
@@ -241,7 +241,7 @@
     {
       "setNumber": 22,
       "topic": "Transport Methods",
-      "words": ["ride", "catch", "miss", "arrive"],
+      "words": ["rides", "catch", "misses", "arrives"],
       "sentences": [
         {"text": "She _____ her bicycle in the park.", "correct": 0},
         {"text": "They _____ the 8 o'clock train.", "correct": 1},
@@ -263,7 +263,7 @@
     {
       "setNumber": 24,
       "topic": "Travel Questions",
-      "words": ["visit", "ride", "catch", "arrive"],
+      "words": ["visit", "rides", "catch", "arrives"],
       "sentences": [
         {"text": "Where do you _____ on holiday?", "correct": 0},
         {"text": "She _____ to work on her bike.", "correct": 1},
@@ -278,14 +278,14 @@
       "sentences": [
         {"text": "We _____ long distances by car.", "correct": 0},
         {"text": "What time does the train _____?", "correct": 1},
-        {"text": "I always _____ the early train.", "correct": 2},
+        {"text": "I never _____ the early train.", "correct": 2},
         {"text": "They _____ to Spain every year.", "correct": 3}
       ]
     },
     {
       "setNumber": 26,
       "topic": "Work & Jobs",
-      "words": ["work", "help", "sell", "manage"],
+      "words": ["work", "helps", "sell", "manages"],
       "sentences": [
         {"text": "I _____ in a hospital.", "correct": 0},
         {"text": "She _____ customers every day.", "correct": 1},
@@ -296,7 +296,7 @@
     {
       "setNumber": 27,
       "topic": "Job Activities",
-      "words": ["design", "build", "repair", "clean"],
+      "words": ["designs", "build", "repairs", "clean"],
       "sentences": [
         {"text": "My sister _____ websites for companies.", "correct": 0},
         {"text": "Construction workers _____ houses.", "correct": 1},
@@ -307,7 +307,7 @@
     {
       "setNumber": 28,
       "topic": "Service Jobs",
-      "words": ["serve", "deliver", "work", "help"],
+      "words": ["serve", "delivers", "work", "help"],
       "sentences": [
         {"text": "Waiters _____ food to customers.", "correct": 0},
         {"text": "The postman _____ letters every morning.", "correct": 1},
@@ -318,7 +318,7 @@
     {
       "setNumber": 29,
       "topic": "Work Questions",
-      "words": ["sell", "repair", "help", "manage"],
+      "words": ["sell", "repairs", "help", "manages"],
       "sentences": [
         {"text": "What do you _____ at your company?", "correct": 0},
         {"text": "She _____ old computers.", "correct": 1},
@@ -329,7 +329,7 @@
     {
       "setNumber": 30,
       "topic": "Professional Work",
-      "words": ["design", "clean", "deliver", "serve"],
+      "words": ["design", "cleans", "delivers", "serve"],
       "sentences": [
         {"text": "They _____ furniture for homes.", "correct": 0},
         {"text": "Who _____ the rooms in your hotel?", "correct": 1},
@@ -340,7 +340,7 @@
     {
       "setNumber": 31,
       "topic": "Shopping & Money",
-      "words": ["buy", "pay", "cost", "spend"],
+      "words": ["buy", "pays", "cost", "spend"],
       "sentences": [
         {"text": "I _____ fresh bread every morning.", "correct": 0},
         {"text": "She _____ by credit card.", "correct": 1},
@@ -351,7 +351,7 @@
     {
       "setNumber": 32,
       "topic": "Money Management",
-      "words": ["save", "shop", "need", "want"],
+      "words": ["save", "shop", "need", "wants"],
       "sentences": [
         {"text": "My parents _____ money every month.", "correct": 0},
         {"text": "They _____ online every weekend.", "correct": 1},
@@ -362,7 +362,7 @@
     {
       "setNumber": 33,
       "topic": "Purchasing",
-      "words": ["afford", "choose", "shop", "cost"],
+      "words": ["afford", "chooses", "shop", "cost"],
       "sentences": [
         {"text": "We can't _____ a new car.", "correct": 0},
         {"text": "He always _____ the cheapest option.", "correct": 1},
@@ -373,7 +373,7 @@
     {
       "setNumber": 34,
       "topic": "Shopping Questions",
-      "words": ["need", "pay", "spend", "save"],
+      "words": ["need", "pay", "spend", "saves"],
       "sentences": [
         {"text": "I don't _____ anything today.", "correct": 0},
         {"text": "Do you _____ cash or card?", "correct": 1},
@@ -384,7 +384,7 @@
     {
       "setNumber": 35,
       "topic": "Shopping Habits",
-      "words": ["want", "buy", "afford", "choose"],
+      "words": ["want", "buy", "afford", "chooses"],
       "sentences": [
         {"text": "What do you _____ to buy?", "correct": 0},
         {"text": "We _____ groceries once a week.", "correct": 1},
@@ -395,7 +395,7 @@
     {
       "setNumber": 36,
       "topic": "Communication & Technology",
-      "words": ["call", "text", "email", "use"],
+      "words": ["call", "texts", "email", "use"],
       "sentences": [
         {"text": "I _____ my parents every evening.", "correct": 0},
         {"text": "She _____ her friends all day.", "correct": 1},
@@ -406,7 +406,7 @@
     {
       "setNumber": 37,
       "topic": "Digital Communication",
-      "words": ["send", "receive", "post", "share"],
+      "words": ["sends", "receive", "posts", "share"],
       "sentences": [
         {"text": "He _____ messages to his team.", "correct": 0},
         {"text": "I _____ about ten emails daily.", "correct": 1},
@@ -417,7 +417,7 @@
     {
       "setNumber": 38,
       "topic": "Online Activities",
-      "words": ["check", "connect", "call", "use"],
+      "words": ["check", "connects", "call", "use"],
       "sentences": [
         {"text": "I always _____ my messages in the morning.", "correct": 0},
         {"text": "The device _____ to wifi automatically.", "correct": 1},
@@ -428,10 +428,10 @@
     {
       "setNumber": 39,
       "topic": "Tech Questions",
-      "words": ["send", "email", "post", "text"],
+      "words": ["send", "emails", "post", "text"],
       "sentences": [
         {"text": "How do you _____ files to colleagues?", "correct": 0},
-        {"text": "She _____ work emails at home.", "correct": 1},
+        {"text": "She _____ work from home.", "correct": 1},
         {"text": "Do you _____ photos online?", "correct": 2},
         {"text": "They _____ messages every hour.", "correct": 3}
       ]
@@ -439,7 +439,7 @@
     {
       "setNumber": 40,
       "topic": "Digital Habits",
-      "words": ["check", "share", "connect", "receive"],
+      "words": ["check", "share", "connects", "receives"],
       "sentences": [
         {"text": "I _____ my email twice a day.", "correct": 0},
         {"text": "We _____ documents by email.", "correct": 1},
@@ -450,7 +450,7 @@
     {
       "setNumber": 41,
       "topic": "Health & Body",
-      "words": ["feel", "hurt", "sleep", "exercise"],
+      "words": ["feel", "hurts", "sleep", "exercise"],
       "sentences": [
         {"text": "I _____ tired after work.", "correct": 0},
         {"text": "My leg _____ when I run.", "correct": 1},
@@ -461,7 +461,7 @@
     {
       "setNumber": 42,
       "topic": "Physical Activities",
-      "words": ["run", "swim", "rest", "walk"],
+      "words": ["run", "swim", "rests", "walks"],
       "sentences": [
         {"text": "They _____ in the park every morning.", "correct": 0},
         {"text": "I _____ in the sea during summer.", "correct": 1},
@@ -483,7 +483,7 @@
     {
       "setNumber": 44,
       "topic": "Health Questions",
-      "words": ["exercise", "run", "swim", "feel"],
+      "words": ["exercise", "runs", "swim", "feel"],
       "sentences": [
         {"text": "How often do you _____?", "correct": 0},
         {"text": "She _____ very fast.", "correct": 1},
@@ -494,7 +494,7 @@
     {
       "setNumber": 45,
       "topic": "Fitness Routines",
-      "words": ["walk", "rest", "breathe", "stretch"],
+      "words": ["walk", "rests", "breathe", "stretches"],
       "sentences": [
         {"text": "We _____ to work every day.", "correct": 0},
         {"text": "My grandfather _____ after lunch.", "correct": 1},
@@ -505,7 +505,7 @@
     {
       "setNumber": 46,
       "topic": "Weather & Nature",
-      "words": ["rain", "snow", "shine", "blow"],
+      "words": ["rains", "snows", "shines", "blows"],
       "sentences": [
         {"text": "It _____ a lot in autumn.", "correct": 0},
         {"text": "It _____ every winter here.", "correct": 1},
@@ -516,7 +516,7 @@
     {
       "setNumber": 47,
       "topic": "Temperature & Changes",
-      "words": ["freeze", "melt", "change", "grow"],
+      "words": ["freezes", "melts", "changes", "grow"],
       "sentences": [
         {"text": "Water _____ at zero degrees.", "correct": 0},
         {"text": "Ice _____ in warm weather.", "correct": 1},
@@ -527,7 +527,7 @@
     {
       "setNumber": 48,
       "topic": "Seasonal Changes",
-      "words": ["fall", "rise", "rain", "snow"],
+      "words": ["fall", "rises", "rain", "snow"],
       "sentences": [
         {"text": "Leaves _____ in autumn.", "correct": 0},
         {"text": "The sun _____ in the east.", "correct": 1},
@@ -538,7 +538,7 @@
     {
       "setNumber": 49,
       "topic": "Weather Questions",
-      "words": ["shine", "fall", "grow", "blow"],
+      "words": ["shine", "falls", "grow", "blows"],
       "sentences": [
         {"text": "When does the sun _____?", "correct": 0},
         {"text": "The temperature _____ at night.", "correct": 1},
@@ -549,7 +549,7 @@
     {
       "setNumber": 50,
       "topic": "Natural Processes",
-      "words": ["melt", "change", "freeze", "rise"],
+      "words": ["melts", "change", "freezes", "rises"],
       "sentences": [
         {"text": "Ice _____ quickly in the sun.", "correct": 0},
         {"text": "Does the weather _____ often?", "correct": 1},
@@ -560,7 +560,7 @@
     {
       "setNumber": 51,
       "topic": "Family & Relationships",
-      "words": ["live", "love", "care", "know"],
+      "words": ["live", "love", "cares", "know"],
       "sentences": [
         {"text": "We _____ in a small town.", "correct": 0},
         {"text": "I _____ my family very much.", "correct": 1},
@@ -587,13 +587,13 @@
         {"text": "Friends _____ you in difficult times.", "correct": 0},
         {"text": "I _____ your feelings.", "correct": 1},
         {"text": "Does your sister _____ alone?", "correct": 2},
-        {"text": "I don't _____ his opinion.", "correct": 3}
+        {"text": "She doesn't _____ about his opinion.", "correct": 3}
       ]
     },
     {
       "setNumber": 54,
       "topic": "Family Questions",
-      "words": ["know", "care", "love", "help"],
+      "words": ["know", "cares", "love", "help"],
       "sentences": [
         {"text": "Do you _____ your neighbours?", "correct": 0},
         {"text": "She _____ for elderly people.", "correct": 1},
@@ -604,7 +604,7 @@
     {
       "setNumber": 55,
       "topic": "Family Life",
-      "words": ["argue", "trust", "marry", "support"],
+      "words": ["argue", "trust", "marry", "supports"],
       "sentences": [
         {"text": "My parents don't _____ often.", "correct": 0},
         {"text": "Do you _____ him?", "correct": 1},
@@ -615,7 +615,7 @@
     {
       "setNumber": 56,
       "topic": "Home & Living",
-      "words": ["open", "close", "lock", "turn off"],
+      "words": ["open", "closes", "lock", "turn off"],
       "sentences": [
         {"text": "I _____ the windows every morning.", "correct": 0},
         {"text": "She _____ the door when she leaves.", "correct": 1},
@@ -626,7 +626,7 @@
     {
       "setNumber": 57,
       "topic": "Household Tasks",
-      "words": ["turn on", "wash", "tidy", "iron"],
+      "words": ["turn on", "wash", "tidies", "irons"],
       "sentences": [
         {"text": "They _____ the heating in winter.", "correct": 0},
         {"text": "I _____ the dishes after dinner.", "correct": 1},
@@ -637,7 +637,7 @@
     {
       "setNumber": 58,
       "topic": "Home Maintenance",
-      "words": ["decorate", "fix", "tidy", "iron"],
+      "words": ["decorate", "fixes", "tidy", "iron"],
       "sentences": [
         {"text": "We _____ the house for parties.", "correct": 0},
         {"text": "My father _____ broken things.", "correct": 1},
@@ -648,7 +648,7 @@
     {
       "setNumber": 59,
       "topic": "Home Questions",
-      "words": ["lock", "close", "open", "turn off"],
+      "words": ["lock", "close", "opens", "turn off"],
       "sentences": [
         {"text": "Do you _____ the door at night?", "correct": 0},
         {"text": "She _____ the curtains in the evening.", "correct": 1},
@@ -659,7 +659,7 @@
     {
       "setNumber": 60,
       "topic": "Household Chores",
-      "words": ["wash", "turn on", "decorate", "fix"],
+      "words": ["wash", "turn on", "decorates", "fix"],
       "sentences": [
         {"text": "Who _____ in your house?", "correct": 0},
         {"text": "They _____ the air conditioning.", "correct": 1},
@@ -670,7 +670,7 @@
     {
       "setNumber": 61,
       "topic": "Thinking & Believing",
-      "words": ["think", "believe", "know", "remember"],
+      "words": ["think", "believes", "know", "remembers"],
       "sentences": [
         {"text": "I _____ this is correct.", "correct": 0},
         {"text": "She _____ in hard work.", "correct": 1},
@@ -703,7 +703,7 @@
     {
       "setNumber": 64,
       "topic": "Opinions & Thoughts",
-      "words": ["know", "think", "agree", "remember"],
+      "words": ["knows", "think", "agree", "remember"],
       "sentences": [
         {"text": "Do you _____ her address?", "correct": 0},
         {"text": "He _____ that's wrong.", "correct": 1},
@@ -714,7 +714,7 @@
     {
       "setNumber": 65,
       "topic": "Mental Activities",
-      "words": ["forget", "disagree", "mean", "decide"],
+      "words": ["forgets", "disagree", "mean", "decide"],
       "sentences": [
         {"text": "She never _____ her homework.", "correct": 0},
         {"text": "They _____ on important things.", "correct": 1},
@@ -725,7 +725,7 @@
     {
       "setNumber": 66,
       "topic": "Clothes & Appearance",
-      "words": ["wear", "look", "suit", "fit"],
+      "words": ["wear", "looks", "suits", "fit"],
       "sentences": [
         {"text": "I _____ jeans every day.", "correct": 0},
         {"text": "She _____ beautiful today.", "correct": 1},
@@ -736,7 +736,7 @@
     {
       "setNumber": 67,
       "topic": "Clothing Choices",
-      "words": ["match", "dress", "change", "try on"],
+      "words": ["matches", "dresses", "change", "try on"],
       "sentences": [
         {"text": "Your shirt _____ your trousers.", "correct": 0},
         {"text": "He _____ smartly for work.", "correct": 1},
@@ -747,7 +747,7 @@
     {
       "setNumber": 68,
       "topic": "Wearing Clothes",
-      "words": ["take off", "put on", "wear", "look"],
+      "words": ["take off", "puts on", "wear", "look"],
       "sentences": [
         {"text": "We _____ our shoes at the door.", "correct": 0},
         {"text": "He _____ his coat in cold weather.", "correct": 1},
@@ -758,7 +758,7 @@
     {
       "setNumber": 69,
       "topic": "Fashion Questions",
-      "words": ["fit", "suit", "dress", "change"],
+      "words": ["fit", "suits", "dress", "changees"],
       "sentences": [
         {"text": "Do these jeans _____ me?", "correct": 0},
         {"text": "Red _____ her very well.", "correct": 1},
@@ -780,7 +780,7 @@
     {
       "setNumber": 71,
       "topic": "Time & Frequency",
-      "words": ["happen", "start", "finish", "last"],
+      "words": ["happen", "starts", "finish", "lasts"],
       "sentences": [
         {"text": "Things _____ for a reason.", "correct": 0},
         {"text": "The film _____ at 8 o'clock.", "correct": 1},
@@ -791,7 +791,7 @@
     {
       "setNumber": 72,
       "topic": "Duration & Continuation",
-      "words": ["continue", "repeat", "wait", "hurry"],
+      "words": ["continue", "repeats", "wait", "hurry"],
       "sentences": [
         {"text": "The rain _____ all day.", "correct": 0},
         {"text": "History _____ itself.", "correct": 1},
@@ -802,7 +802,7 @@
     {
       "setNumber": 73,
       "topic": "Time Usage",
-      "words": ["spend", "waste", "happen", "start"],
+      "words": ["spend", "wastes", "happen", "start"],
       "sentences": [
         {"text": "They _____ a lot of time together.", "correct": 0},
         {"text": "He _____ time on social media.", "correct": 1},
@@ -813,7 +813,7 @@
     {
       "setNumber": 74,
       "topic": "Time Questions",
-      "words": ["finish", "last", "continue", "repeat"],
+      "words": ["finish", "last", "continues", "repeats"],
       "sentences": [
         {"text": "What time do you _____?", "correct": 0},
         {"text": "How long does the lesson _____?", "correct": 1},
