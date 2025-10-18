@@ -32,10 +32,10 @@
     {
       "setNumber": 3,
       "topic": "Daily Routines - Questions",
-      "words": ["wake up", "wakes up", "leave", "goes"],
+      "words": ["stays", "wake up", "leave", "goes"],
       "sentences": [
-        {"text": "Does your brother _____ early on weekends?", "correct": 0},
-        {"text": "She doesn't _____ in the morning.", "correct": 2},
+        {"text": "Does your brother _____ early at weekends?", "correct": 1},
+        {"text": "He usually _____ in bed in the morning.", "correct": 0},
         {"text": "What time do you _____ for work?", "correct": 2},
         {"text": "My sister never _____ late to class.", "correct": 3}
       ]
@@ -43,11 +43,11 @@
     {
       "setNumber": 4,
       "topic": "Daily Routines - Morning Activities",
-      "words": ["take", "start", "finish", "brushes"],
+      "words": ["finish", "start", "take", "brushes"],
       "sentences": [
-        {"text": "Do you _____ a shower before breakfast?", "correct": 0},
+        {"text": "Do you _____ a shower before breakfast?", "correct": 2},
         {"text": "When does the lesson _____?", "correct": 1},
-        {"text": "We _____ our homework before dinner.", "correct": 2},
+        {"text": "We _____ our homework before dinner.", "correct": 0},
         {"text": "He _____ his teeth three times a day.", "correct": 3}
       ]
     },
@@ -109,11 +109,11 @@
     {
       "setNumber": 10,
       "topic": "School Questions",
-      "words": ["answers", "teach", "do", "ask"],
+      "words": ["finish", "teach", "gives", "ask"],
       "sentences": [
-        {"text": "My teacher never _____ difficult questions.", "correct": 0},
+        {"text": "My teacher never _____ us difficult questions.", "correct": 2},
         {"text": "Where does your father _____?", "correct": 1},
-        {"text": "They don't _____ their homework on time.", "correct": 2},
+        {"text": "They don't _____ their homework on time.", "correct": 0},
         {"text": "Why do you always _____ so many questions?", "correct": 3}
       ]
     },
@@ -428,11 +428,11 @@
     {
       "setNumber": 39,
       "topic": "Tech Questions",
-      "words": ["send", "emails", "post", "text"],
+      "words": ["post", "emails", "send", "text"],
       "sentences": [
-        {"text": "How do you _____ files to colleagues?", "correct": 0},
-        {"text": "She _____ work from home.", "correct": 1},
-        {"text": "Do you _____ photos online?", "correct": 2},
+        {"text": "How do you _____ files to colleagues?", "correct": 2},
+        {"text": "She _____ me from work.", "correct": 1},
+        {"text": "Do you _____ photos online?", "correct": 0},
         {"text": "They _____ messages every hour.", "correct": 3}
       ]
     },
@@ -472,23 +472,23 @@
     {
       "setNumber": 43,
       "topic": "Body Functions",
-      "words": ["breathe", "stretch", "hurt", "sleep"],
+      "words": ["hurt", "stretch", "sleep", "breathe"],
       "sentences": [
-        {"text": "You _____ deeply during yoga.", "correct": 0},
+        {"text": "You should _____ deeply during yoga.", "correct": 3},
         {"text": "Athletes _____ before training.", "correct": 1},
-        {"text": "Does your back _____?", "correct": 2},
-        {"text": "I don't _____ well at night.", "correct": 3}
+        {"text": "Does your back _____?", "correct": 0},
+        {"text": "I don't _____ well at night.", "correct": 2}
       ]
     },
     {
       "setNumber": 44,
       "topic": "Health Questions",
-      "words": ["exercise", "runs", "swim", "feel"],
+      "words": ["runs", "feel", "swim", "exercise"],
       "sentences": [
-        {"text": "How often do you _____?", "correct": 0},
-        {"text": "She _____ very fast.", "correct": 1},
+        {"text": "How often do you _____?", "correct": 3},
+        {"text": "She _____ very fast.", "correct": 0},
         {"text": "Do you _____ in winter?", "correct": 2},
-        {"text": "I _____ better after rest.", "correct": 3}
+        {"text": "I _____ better after rest.", "correct": 1}
       ]
     },
     {
@@ -703,7 +703,7 @@
     {
       "setNumber": 64,
       "topic": "Opinions & Thoughts",
-      "words": ["knows", "think", "agree", "remember"],
+      "words": ["know", "think", "agree", "remember"],
       "sentences": [
         {"text": "Do you _____ her address?", "correct": 0},
         {"text": "He _____ that's wrong.", "correct": 1},
@@ -758,7 +758,7 @@
     {
       "setNumber": 69,
       "topic": "Fashion Questions",
-      "words": ["fit", "suits", "dress", "changees"],
+      "words": ["fit", "suits", "dress", "changes"],
       "sentences": [
         {"text": "Do these jeans _____ me?", "correct": 0},
         {"text": "Red _____ her very well.", "correct": 1},
@@ -824,12 +824,12 @@
     {
       "setNumber": 75,
       "topic": "Time Management",
-      "words": ["wait", "hurry", "waste", "spend"],
+      "words": ["hurry", "spend", "waste", "wait"],
       "sentences": [
-        {"text": "Do you _____ for him?", "correct": 0},
-        {"text": "I don't _____ to work.", "correct": 1},
+        {"text": "Do you _____ for him?", "correct": 3},
+        {"text": "I don't _____ to work.", "correct": 0},
         {"text": "We _____ money on unnecessary things.", "correct": 2},
-        {"text": "My classes _____ time with friends.", "correct": 3}
+        {"text": "I  _____ time with friends.", "correct": 1}
       ]
     }
   ]
